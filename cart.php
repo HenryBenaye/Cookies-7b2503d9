@@ -10,7 +10,7 @@
     <h1>Basketbal (#2)</h2>
     <h1>Skeelers (#3)</h3>
     <form action="cart.php" method="get">
-        Keuze: <input type="text" name="keuze"> 
+        Keuze: <input type="number" name="keuze" min="1" max="3"> 
         <input type="submit">
     </form>
     
