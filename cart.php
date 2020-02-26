@@ -18,15 +18,15 @@
 </html>
 
 <?php   
-    if(isset($_GET['keuze'])){
-        setcookie("keuze", $_GET['keuze'], time()+ 20);
+if(isset($_GET['keuze'])) {
+    setcookie("keuze", $_GET['keuze'], time()+ 20);
 
-    }
+}
 
 
-    if (isset($_COOKIE['keuze'])) {
+if (isset($_COOKIE['keuze'])) {
         echo"Gekozen item:". $_COOKIE['keuze'];
-    }
+}
 
     
    
